@@ -1,0 +1,386 @@
+body {
+    margin: 0;
+    background-color: bisque;
+    font-family: 'Gilroy';
+}
+
+h1, p, h2 {
+    margin: 0;
+}
+
+/* _____________INDEX___ */
+
+.inex-1 {
+    background-color: white;
+}
+
+.index-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+
+.img-link img {
+    width: 130px;
+    height: 100px;
+}
+
+.img-link2 img {
+    width: 60px;
+    height: 100px;
+}
+
+.img-link3 img {
+    width: 200px;
+    height: 100px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.img-box {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.box-bor {
+    border: 1px solid black;
+}
+/* ________________________________ */
+
+.color-card1 {
+    width: 309.39px;
+    height: 246.07px;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 31.6%, rgba(0, 0, 0, 0.52) 73.45%);
+}
+
+.bc_card1 {
+    width: 309.39px;
+    height: 246.07px;
+
+    background-image: url(../images/card1_img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.box-text-card1 {
+    width: 274.93px;
+    height: 108.21px;
+    /* background-color: antiquewhite; */
+
+    font-family: 'Gilroy';
+    color: white;
+
+    position: absolute;
+    padding-top: 125px;
+    
+    
+}
+
+.box-text-card1 h1 {
+    width: 174.74px;
+    height: 71.34px;
+
+    font-weight: 800;
+    font-size: 28.86px;
+}
+
+.box-text-card1 span {
+    color: rgb(68, 164, 255);
+}
+
+.fila-card1-button-p {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-text-card1 p {
+    width: 174.74px;
+    height: 32.86px;
+
+    font-weight: 400;
+    font-size: 11.22px;
+}
+
+.fila-card1-button-p button {
+    font-family: 'Gilroy';
+    font-weight: 800;
+    font-size: 12.82px;
+    color: #FFFFFF;
+
+    padding: 0;
+
+    width: 81.76px;
+    height: 34.47px;
+    border-radius: 24.85px;
+    border: 0.8px solid #FFFFFF;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 31.6%, rgba(0, 0, 0, 0.52) 73.45%);
+}
+
+/* ____________________________________________ */
+
+.bc_card2 {
+    width: 166.4px;
+    height: 302.18px;
+    background-color: rgb(255, 255, 255);
+
+    border-radius: 3.14;
+}
+
+.bc_card2 img {
+    width: 166.4px;
+    height: 193.87px;
+}
+
+.bc_card2 h1 {
+    font-weight: 400;
+    font-size: 14.13px;
+    color: #1A2B49;
+    font-family: 'Gilroy';
+    
+    width: 138.05px;
+    height: 40.81px;
+
+    position: absolute;
+    padding-left: 10px;
+    padding-top: 7px;
+}
+
+.box-p-h2 p {
+    font-weight: 800;
+    font-size: 12.56px;
+    color: #FFFFFF;
+    background: #32A636;
+
+    width: 22.52px;
+    height: 22.76px;
+    border-radius: 3.14px;
+
+    font-family: 'Gilroy';
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-p-h2 h2 {
+    color: #BDBDBD;
+
+    font-weight: 300;
+    font-size: 12.56px;
+    font-family: 'Gilroy';
+}
+
+.box-p-h2 {
+    width: 77.17px;
+    height: 22.16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: absolute;
+    padding-left: 10px;
+    padding-top: 65px;
+}
+
+/* ______2 */
+
+.box-p-h2-2 {
+    width: 32.91px;
+    height: 35.59px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    position: absolute;
+    padding-left: 125px;
+    padding-top: 55px;
+}
+
+.box-p-h2-2 p {
+    font-family: 'Gilroy';
+    font-weight: 300;
+    font-size: 11.39px;
+    text-align: right;
+
+    color: #1A2B49;
+}
+
+.box-p-h2-2 h2 {
+    font-family: 'Gilroy';
+    font-weight: 800;
+    font-size: 14.13px;
+    line-height: 144%;
+    text-align: right;
+    color: #1A2B49;
+}
+
+
+/* _________CARD3______________________________ */
+
+.card_img_3 {
+    position: absolute;
+    padding-left: 178px;
+    padding-top: 15px;
+}
+
+.bc_card3 {
+    width: 270.4px;
+    height: 123.34px;
+    background-color: white;
+
+    color: #1A2B49;
+
+}
+
+.box_text_card3 {
+    width: 128.09px;
+    height: 47.44px;
+    color: #1A2B49;
+
+    position: absolute;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.box_text_card3 p {
+    font-weight: 400;
+    font-size: 11.39px;
+    line-height: 144%;
+    letter-spacing: 0%;
+
+    width: 128.09px;
+    height: 17.08px;
+}
+
+.box_text_card3 h1 {
+    font-weight: 700;
+    font-size: 22.77px;
+    line-height: 144%;
+    letter-spacing: 0%;
+
+    width: 76.85px;
+    height: 33.21px;
+}
+
+/* ____ */
+
+
+.box2 {
+    display: flex;
+    justify-content: space-between;
+    
+    width: 126.19px;
+    height: 37px;
+
+    position: absolute;
+    padding-left: 15px;
+    padding-top: 70px;
+}
+
+.text2 p {
+    font-weight: 400;
+    font-size: 11.39px;
+    line-height: 144%;
+    letter-spacing: 0%;
+}
+
+.text2 h1 {
+    font-weight: 600;
+    font-size: 17.08px;
+    line-height: 144%;
+    letter-spacing: 0%;
+}
+
+.text3 p {
+    font-weight: 400;
+    font-size: 11.39px;
+    line-height: 144%;
+    letter-spacing: 0%;
+}
+
+.text3 h1 {
+    font-weight: 600;
+    font-size: 17.08px;
+    line-height: 144%;
+    letter-spacing: 0%;
+
+}
+
+button {
+    padding: 0;
+    font-family: 'Gilroy';
+    
+    font-weight: 800;
+    font-size: 15.18px;
+    color: #00AEFF;
+
+    border: 1px solid #00AEFF;
+
+    width: 96.78px;
+    height: 40.8px;
+    border-radius: 29.41px;
+    background-color: transparent;
+}
+
+.button-pad {
+    position: absolute;
+    padding-top: 70px;
+    padding-left: 160px;
+}
+
+/* ______CARD4_______________________________ */
+
+.bc_card4 {
+    width: 302.97px;
+    height: 240.96px;
+
+    background-image: url(../images/card4_img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box-4 {
+    font-family: "Poppins", sans-serif;
+    color: #FFFFFF;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 302.97px;
+    height: 240.96px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.32) 31.6%, rgba(0, 0, 0, 0.5) 100%);
+}
+
+.box-4 h1 {
+    font-weight: 500;
+    font-size: 40.81px;
+    line-height: 40.81px;
+    letter-spacing: -0.94px;
+    text-align: center;
+}
+
+.box-4 p {
+    font-weight: 400;
+    font-size: 13.34px;
+    line-height: 18.84px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.box-4 img {
+    width: 42.38px;
+    height: 42.38px;
+}
