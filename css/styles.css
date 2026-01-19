@@ -1,7 +1,12 @@
 body {
     margin: 0;
-    background-color: bisque;
+    background-color: rgb(130, 129, 129);
     font-family: 'Gilroy';
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 h1, p, h2 {
@@ -12,6 +17,10 @@ h1, p, h2 {
 
 .inex-1 {
     background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .index-text {
