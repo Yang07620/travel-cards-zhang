@@ -21,6 +21,8 @@ h1, p, h2 {
     display: flex;
     flex-direction: column;
     gap: 20px;
+
+    font-size: 35px;
 }
 
 .index-text {
@@ -33,18 +35,18 @@ h1, p, h2 {
 
 
 .img-link img {
-    width: 130px;
-    height: 100px;
+    width: 230px;
+    height: 200px;
 }
 
 .img-link2 img {
-    width: 60px;
-    height: 100px;
+    width: 160px;
+    height: 200px;
 }
 
 .img-link3 img {
-    width: 200px;
-    height: 100px;
+    width: 300px;
+    height: 200px;
 }
 
 a {
