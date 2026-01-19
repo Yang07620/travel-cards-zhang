@@ -1,9 +1,9 @@
 # Travel Cards - Examen CSS MP02
 ## 4 CARDS FETS AMB HTML Y CSS
 
-- Estructura de la carpeta:
+# Estructura de la carpeta:
 travel-cards-cognom1-cognom2/
-# ├── index.html
+    ├── index.html
     ├── card1.html
     ├── card2.html
     ├── card3.html
@@ -17,6 +17,7 @@ travel-cards-cognom1-cognom2/
         ├── thumb3.png
         ├── thumb4.png
         └── ... (altres imatges necessàries)
+
 
 
 
